@@ -13,16 +13,42 @@
     <link rel="stylesheet" href="style.css" />
   </head>
   <body>
-    <!-- 
-      1. Add in a navbar from bootstrap that only has the Navbrand showing in the left hand corner.
-          Use the bootstrap documenation
-      2. Create a div with the class of container
-      3. Inside the div with the class container add 2 rows
-      4. Inside the first div with the class of row there should be 6 large columns. 
+    <!-- 1. Add in a navbar from bootstrap that only has the Navbrand showing in the left hand corner.
+          Use the bootstrap documenation-->
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+      <div class="container-md">
+        <a class="navbar-brand" href="#">Navbar</a>
+      </div>
+    </nav>
+    <!-- 2. Create a div with the class of container-->
+    <div class="container">
+      <!-- 3. Inside the div with the class container add 2 rows-->
+      <div class="row">
+        <!-- 4. Inside the first div with the class of row there should be 6 large columns. 
           When collapsed down there should be 3 medium columns
-          When collpased down further ther should be 1 small column.
-      5. Inside the second div with the class of row there should be 4 medium columns.
-          When collapsed down there should be 2 small columns
+          When collpased down further ther should be 1 small column.-->
+        <div class="col-lg-6 col-med-3 col-sm-1"><div class="blue"></div></div>
+        <div class="col-lg-6 col-med-3 col-sm-1"><div class="blue"></div></div>
+        <div class="col-lg-6 col-med-3 col-sm-1"><div class="blue"></div></div>
+        <div class="col-lg-6 col-med-3 col-sm-1"><div class="blue"></div></div>
+        <div class="col-lg-6 col-med-3 col-sm-1"><div class="blue"></div></div>
+        <div class="col-lg-6 col-med-3 col-sm-1"><div class="blue"></div></div>
+      </div>
+      <div class="row">
+        <!-- 5. Inside the second div with the class of row there should be 4 medium columns.
+          When collapsed down there should be 2 small columns-->
+        <div class="col-med-4 col-sm-2"><div class="blue"></div></div>
+        <div class="col-med-4 col-sm-2"><div class="blue"></div></div>
+        <div class="col-med-4 col-sm-2"><div class="blue"></div></div>
+        <div class="col-med-4 col-sm-2"><div class="blue"></div></div>
+      </div>
+    </div>
+    <!-- 
+     
+     
+     
+     
+     
       6. Inside each column create a div. Each div should have the height of 100px, width of 100px,
         and a blue background color.
     -->
